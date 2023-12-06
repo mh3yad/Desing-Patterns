@@ -1,0 +1,16 @@
+{
+    "name": "mh3yad/db",
+    "description": "desing patterns that I'm currently studying",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Mh3yad\\Db\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mohamed ayad"
+        }
+    ],
+    "require": {}
+}
