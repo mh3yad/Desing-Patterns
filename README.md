@@ -29,3 +29,12 @@
   * May create circular dependencies between components.
   * Can lead to "god objects" that do too many things and become complex and difficult to maintain.
 
+### Example
+```php
+$singleton1 = Singleton::getInstance();
+$singleton2 = Singleton::getInstance();
+
+echo $singleton1->getConnectionState(); // 0
+$singleton2->setConnectionState(6);
+echo $singleton1->getConnectionState(); // 6
+```
